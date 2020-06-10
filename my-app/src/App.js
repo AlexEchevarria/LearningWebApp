@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Footer from "./footer"
+import Header from "./header"
+import { GlobalStyle, Content } from "./app.styled"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <GlobalStyle />
+      <Header/>
+      <Content >
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Rafa eres un mariquita
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </Content >
+      <Footer />
     </div>
   );
 }
