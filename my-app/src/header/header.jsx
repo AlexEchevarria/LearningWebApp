@@ -1,10 +1,17 @@
 import React from 'react'
-import { HeaderWrapper } from "./header.styled"
+import { HeaderWrapper, StyledMenu } from "./header.styled"
+import { StyledBurger } from "./buttonSidebar.styled"
 
 const Header = () =>{
     return (
         <HeaderWrapper>
-            Header
+            <StyledMenu>
+                <StyledBurger>
+                    <div/>
+                    <div/>
+                    <div/>
+                </StyledBurger>                
+            </StyledMenu>
         </HeaderWrapper>
     )
 }

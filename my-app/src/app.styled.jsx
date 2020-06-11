@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     position: absolute;
     width: 100%;
     font-family: Bold;
+    background: gray; 
   }
 `
 
